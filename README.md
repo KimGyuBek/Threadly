@@ -219,6 +219,7 @@ Threadly는 도메인 중심 구조, 확장성, 명확한 책임 분리를 목�
 ---
 
 ## 트러블 슈팅
+개발 과정에서 발생했던 기술적 문제들과 해결 과정을 정리한 트러블 슈팅 문서입니다.
 
 - [서비스 추가로 인한 운영 서버 다운](https://github.com/KimGyuBek/Threadly/wiki/%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%B6%94%EA%B0%80%EB%A1%9C-%EC%9D%B8%ED%95%9C-%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B2%84-%EB%8B%A4%EC%9A%B4-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
 - [알림 발행 실패 시 전체 트랜잭션 롤백](https://github.com/KimGyuBek/Threadly/wiki/%EC%95%8C%EB%A6%BC-%EB%B0%9C%ED%96%89-%EC%8B%A4%ED%8C%A8-%EC%8B%9C-%EC%A0%84%EC%B2%B4-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EB%A1%A4%EB%B0%B1-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
