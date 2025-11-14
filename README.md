@@ -54,7 +54,7 @@ Threadly는 그런 순간을 위해 만들어졌습니다.
 
 ## 서비스 구성도
 
-[<img src="images/system-structure.png" width="1000">](images/system_structure.png)
+![<img src="images/system-structure.png">](images/system_structure.png)
 
 ## 위키 목록
 
