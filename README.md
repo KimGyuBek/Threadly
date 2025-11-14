@@ -70,7 +70,7 @@ Threadly는 다음과 같은 서비스로 구성되어 있습니다.
 - 알림 서비스: https://github.com/KimGyuBek/notification-service
 - 프론트 엔드: https://github.com/KimGyuBek/threadly-frontend
 
-## 위키 목록
+## 위키 목록(https://github.com/KimGyuBek/Threadly/wiki)
 
 - [소개](소개)
 - [아키텍쳐](아키텍처)
