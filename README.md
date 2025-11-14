@@ -101,7 +101,9 @@ Threadly는 그런 순간을 위해 만들어졌습니다.
 Threadly는 **MSA**기반으로 2개의 서비스로 구성되며,
 
 각 서비스는 독립적으로 배포되고 `Kafka` 이벤트로 연결됩니다.
+
 모든 백엔드 서비스는 **Docker** 기반으로 컨테이너화**되어
+
 **AWS `EC2` 환경에서 무중단 배포 됩니다.**
 
 > [백엔드 운영 환경 구성 위키 문서 보기](https://github.com/KimGyuBek/Threadly/wiki/%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%84%B1)
