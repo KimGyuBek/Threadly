@@ -142,7 +142,7 @@ Threadly는 **`Github Actions` 기반으로 테스트/빌드/배포까지 자동
 - [게시글 삭제 시 연관 데이터 삭제 동기 처리로 인한 성능 문제](https://github.com/KimGyuBek/threadly-service/issues/75)
 - [Spring Batch 메타 테이블 Flyway 충돌 문제](https://github.com/KimGyuBek/Threadly/wiki/Spring-Batch-%EB%A9%94%ED%83%80-%ED%85%8C%EC%9D%B4%EB%B8%94%EA%B3%BC-Flyway-%EC%B6%A9%EB%8F%8C-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
 - [Filter 단계에서 예외 발생 시 오류 응답 누락 문제](https://github.com/KimGyuBek/Threadly/wiki/Filter-%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C-%EC%98%88%EC%99%B8-%EB%B0%9C%EC%83%9D-%EC%8B%9C-%EC%98%A4%EB%A5%98-%EC%9D%91%EB%8B%B5-%EB%88%84%EB%9D%BD-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85)
-- [Flyway 마이그레이션 체크섬 불일치 문제 트러블슈팅](https://github.com/KimGyuBek/Threadly/wiki/Filter-%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C-%EC%98%88%EC%99%B8-%EB%B0%9C%EC%83%9D-%EC%8B%9C-%EC%98%A4%EB%A5%98-%EC%9D%91%EB%8B%B5-%EB%88%84%EB%9D%BD-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85)
+- [Flyway 마이그레이션 체크섬 불일치 문제 트러블슈팅](https://github.com/KimGyuBek/Threadly/wiki/Flyway-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98-%EC%B2%B4%ED%81%AC%EC%84%AC-%EB%B6%88%EC%9D%BC%EC%B9%98-%EB%AC%B8%EC%A0%9C-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85)
 - [DB 환경 차이로인한 쿼리 오류 트러블 슈팅](https://github.com/KimGyuBek/Threadly/wiki/DB-%ED%99%98%EA%B2%BD-%EC%B0%A8%EC%9D%B4%EB%A1%9C%EC%9D%B8%ED%95%9C-%EC%BF%BC%EB%A6%AC-%EC%98%A4%EB%A5%98-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85)
 - [blue-green 배포 시 업로드 파일 손실 트러블 슈팅](https://github.com/KimGyuBek/Threadly/wiki/blue-green-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-%EC%97%85%EB%A1%9C%EB%93%9C-%ED%8C%8C%EC%9D%BC-%EC%86%90%EC%8B%A4-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
 
