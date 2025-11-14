@@ -135,16 +135,16 @@ Threadly는 **`Github Actions` 기반으로 테스트/빌드/배포까지 자동
 ---
 
 ## 트러블 슈팅
-- [서비스 추가로 인한 운영 서버 다운](서비스-추가로-인한-운영-서버-다운-트러블-슈팅)
-- [알림 발행 실패 시 전체 트랜잭션 롤백](알림-발행-실패-시-전체-트랜잭션-롤백-트러블-슈팅)
-- [하드 딜리트 배치 성능 저하](하드-딜리트-배치-성능-저하-트러블-슈팅)
-- [Swagger UI와 ResponseBodyAdvice 충돌 문제](Swagger-UI와-ResponseBodyAdvice-충돌-문제-트러블-슈팅)
+- [서비스 추가로 인한 운영 서버 다운](https://github.com/KimGyuBek/Threadly/wiki/%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%B6%94%EA%B0%80%EB%A1%9C-%EC%9D%B8%ED%95%9C-%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B2%84-%EB%8B%A4%EC%9A%B4-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
+- [알림 발행 실패 시 전체 트랜잭션 롤백](https://github.com/KimGyuBek/Threadly/wiki/%EC%95%8C%EB%A6%BC-%EB%B0%9C%ED%96%89-%EC%8B%A4%ED%8C%A8-%EC%8B%9C-%EC%A0%84%EC%B2%B4-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EB%A1%A4%EB%B0%B1-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
+- [하드 딜리트 배치 성능 저하](https://github.com/KimGyuBek/Threadly/wiki/%ED%95%98%EB%93%9C-%EB%94%9C%EB%A6%AC%ED%8A%B8-%EB%B0%B0%EC%B9%98-%EC%84%B1%EB%8A%A5-%EC%A0%80%ED%95%98-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
+- [Swagger UI와 ResponseBodyAdvice 충돌 문제](https://github.com/KimGyuBek/Threadly/wiki/Swagger-UI%EC%99%80-ResponseBodyAdvice-%EC%B6%A9%EB%8F%8C-%EB%AC%B8%EC%A0%9C-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
 - [게시글 삭제 시 연관 데이터 삭제 동기 처리로 인한 성능 문제](https://github.com/KimGyuBek/threadly-service/issues/75)
-- [Spring Batch 메타 테이블 Flyway 충돌 문제](Spring-Batch-메타-테이블과-Flyway-충돌-트러블-슈팅)
-- [Filter 단계에서 예외 발생 시 오류 응답 누락 문제](Filter-단계에서-예외-발생-시-오류-응답-누락-트러블슈팅)
-- [Flyway 마이그레이션 체크섬 불일치 문제 트러블슈팅](Flyway-마이그레이션-체크섬-불일치-문제-트러블슈팅)
-- [DB 환경 차이로인한 쿼리 오류 트러블 슈팅](DB-환경-차이로인한-쿼리-오류-트러블슈팅)
-- [blue-green 배포 시 업로드 파일 손실 트러블 슈팅](blue-green-배포-시-업로드-파일-손실-트러블-슈팅)
+- [Spring Batch 메타 테이블 Flyway 충돌 문제](https://github.com/KimGyuBek/Threadly/wiki/Spring-Batch-%EB%A9%94%ED%83%80-%ED%85%8C%EC%9D%B4%EB%B8%94%EA%B3%BC-Flyway-%EC%B6%A9%EB%8F%8C-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
+- [Filter 단계에서 예외 발생 시 오류 응답 누락 문제](https://github.com/KimGyuBek/Threadly/wiki/Filter-%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C-%EC%98%88%EC%99%B8-%EB%B0%9C%EC%83%9D-%EC%8B%9C-%EC%98%A4%EB%A5%98-%EC%9D%91%EB%8B%B5-%EB%88%84%EB%9D%BD-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85)
+- [Flyway 마이그레이션 체크섬 불일치 문제 트러블슈팅](https://github.com/KimGyuBek/Threadly/wiki/Filter-%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C-%EC%98%88%EC%99%B8-%EB%B0%9C%EC%83%9D-%EC%8B%9C-%EC%98%A4%EB%A5%98-%EC%9D%91%EB%8B%B5-%EB%88%84%EB%9D%BD-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85)
+- [DB 환경 차이로인한 쿼리 오류 트러블 슈팅](https://github.com/KimGyuBek/Threadly/wiki/DB-%ED%99%98%EA%B2%BD-%EC%B0%A8%EC%9D%B4%EB%A1%9C%EC%9D%B8%ED%95%9C-%EC%BF%BC%EB%A6%AC-%EC%98%A4%EB%A5%98-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85)
+- [blue-green 배포 시 업로드 파일 손실 트러블 슈팅](https://github.com/KimGyuBek/Threadly/wiki/blue-green-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-%EC%97%85%EB%A1%9C%EB%93%9C-%ED%8C%8C%EC%9D%BC-%EC%86%90%EC%8B%A4-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
 
 
 ---
