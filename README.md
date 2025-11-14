@@ -89,9 +89,10 @@ Threadly는 그런 순간을 위해 만들어졌습니다.
 
 ---
 
-## 서비스 구성도
+## 전체 서비스 구성도
 
-![<img src="images/system-structure.png">](images/system_structure.png)
+
+![<img src="images/service-structure.png">](images/service_structure.png)
 
 ---
 
