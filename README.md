@@ -109,11 +109,11 @@ Threadly는 **MSA**기반으로 2개의 서비스로 구성되며,
 
 각 서비스는 독립적으로 배포되고 `Kafka` 이벤트로 연결됩니다.
 
-모든 백엔드 서비스는 **Docker** 기반으로 컨테이너화**되어
+모든 백엔드 서비스는 **Docker 기반으로 컨테이너화**되어
 
 **AWS `EC2` 환경에서 무중단 배포 됩니다.**
 
-> 자세한 문서는 [백엔드 운영 환경 구성 위키 문서 보기](https://github.com/KimGyuBek/Threadly/wiki/%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%84%B1)에서 확인할 수 있습니다.
+> 자세한 문서는 [백엔드 운영 환경 구성 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%84%B1)에서 확인할 수 있습니다.
 
 ### threadly-service (메인 서비스)
 
@@ -133,7 +133,7 @@ Threadly는 **MSA**기반으로 2개의 서비스로 구성되며,
 
 https://github.com/KimGyuBek/threadly-frontend
 
-> 자세한 문서는 [프론트엔드 운영 환경 구성 위키 문서 보기]()에서 확인할 수 있습니다.
+> 자세한 문서는 [프론트엔드 운영 환경 구성 위키 문서]()에서 확인할 수 있습니다.
 
 ---
 
@@ -161,7 +161,7 @@ Threadly는 단순 CRUD 중심의 서비스가 아니라,
 Threadly는 **`Github Actions` 기반으로 테스트/빌드/배포까지 자동화된 파이프라인**을 구성했습니다.
 또한 `Slack`을 이용한 워크 플로우의 성공 유무 및 관련 PR 생성?
 
-> 자세한 문서는 [CI/CD 상세 위키 문서 보기](https://github.com/KimGyuBek/Threadly/wiki/CI-CD-%EB%8F%99%EC%9E%91-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)에서 확인할 수 있습니다.
+> 자세한 문서는 [CI/CD 상세 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/CI-CD-%EB%8F%99%EC%9E%91-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)에서 확인할 수 있습니다.
 
 
 ---
@@ -201,6 +201,8 @@ app-batch                         8.5%         3.8%        10.6%        27.3%   
 
 > 자세한 문서는 [테스트 상세 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EC%A1%B0-%EB%B0%8F-%EC%A0%84%EB%9E%B5)
 에서 확인할 수 있습니다.
+> 
+> CI 워크플로우 결과의 예시는 [CI 워크플로우 결과](https://github.com/KimGyuBek/threadly-service/actions/runs/19262210745)에서 확인할 수 있습니다.
 
 ---
 
