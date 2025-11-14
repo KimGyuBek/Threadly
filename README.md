@@ -42,6 +42,37 @@ Threadly는 그런 순간을 위해 만들어졌습니다.
 
 ---
 
+## 사용 기술 스택
+
+### Backend
+- Java 17
+- Spring Boot (Security, JPA, WebSocket, Batch)
+- Kafka 기반 비동기 이벤트 처리
+
+### Database & Storage
+- PostgreSQL (주 데이터베이스)
+- MongoDB (알림 서비스)
+- Redis (캐싱)
+- Flyway (DB 마이그레이션)
+
+### DevOps & Infrastructure
+- Docker / Docker Compose
+- GitHub Actions (CI/CD)
+- Nginx
+- AWS EC2, S3, CloudFront
+
+### 모니터링
+- Prometheus, Grafana
+- PushGateway
+- Loki + Promtail (로그 수집)
+- Spring Actuator
+
+### 테스트
+- JUnit 5, Mockito, AssertJ
+- Jacoco (커버리지)
+- K6 (부하 테스트)
+---
+
 ## 개발 범위 및 역할
 
 ### 백엔드
@@ -62,13 +93,59 @@ Threadly는 그런 순간을 위해 만들어졌습니다.
 
 ![<img src="images/system-structure.png">](images/system_structure.png)
 
+---
+
 ## Threadly 구성 서비스
 
-Threadly는 다음과 같은 서비스로 구성되어 있습니다.
+## Backend(MSA 구조)
+Threadly는 **MSA**기반으로 2개의 서비스로 구성되며,
 
-- 메인 서비스: https://github.com/KimGyuBek/threadly-service
-- 알림 서비스: https://github.com/KimGyuBek/notification-service
-- 프론트 엔드: https://github.com/KimGyuBek/threadly-frontend
+각 서비스는 독립적으로 배포되고 `Kafka` 이벤트로 연결됩니다.
+모든 백엔드 서비스는 **Docker** 기반으로 컨테이너화**되어
+**AWS `EC2` 환경에서 무중단 배포 됩니다.**
+
+> [백엔드 운영 환경 구성 위키 문서 보기](https://github.com/KimGyuBek/Threadly/wiki/%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%84%B1)
+
+### threadly-service (메인 서비스)
+  - 사용자, 게시글, 댓글, 검색 , 팔로우 등 **핵심 도메인을 담당하는 메인 서비스**
+  - https://github.com/KimGyuBek/threadly-service
+   
+### notification-service (알림 서비스)
+  - `Kafka` 메세지를 기반으로 **알림 처리를 담당하는 알림 서비스**
+  - https://github.com/KimGyuBek/notification-service
+
+## Frontend
+웹 프론트엔드는 **Codex로 구현** 되었으며,
+
+**AWS `S3` + `CloudFront`를 통해 배포됩니다.**
+
+https://github.com/KimGyuBek/threadly-frontend
+
+> [프론트엔드 운영 환경 구성 위키 문서 보기]()
+
+---
+
+## CI/CD 파이프라인 구축
+Threadly는 **`Github Actions` 기반으로 테스트/빌드/배포까지 자동화된 파이프라인**을 구성했습니다.
+
+[CI/CD 상세 위키 문서 보기](https://github.com/KimGyuBek/Threadly/wiki/CI-CD-%EB%8F%99%EC%9E%91-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+
+---
+
+## 트러블 슈팅
+- [서비스 추가로 인한 운영 서버 다운](서비스-추가로-인한-운영-서버-다운-트러블-슈팅)
+- [알림 발행 실패 시 전체 트랜잭션 롤백](알림-발행-실패-시-전체-트랜잭션-롤백-트러블-슈팅)
+- [하드 딜리트 배치 성능 저하](하드-딜리트-배치-성능-저하-트러블-슈팅)
+- [Swagger UI와 ResponseBodyAdvice 충돌 문제](Swagger-UI와-ResponseBodyAdvice-충돌-문제-트러블-슈팅)
+- [게시글 삭제 시 연관 데이터 삭제 동기 처리로 인한 성능 문제](https://github.com/KimGyuBek/threadly-service/issues/75)
+- [Spring Batch 메타 테이블 Flyway 충돌 문제](Spring-Batch-메타-테이블과-Flyway-충돌-트러블-슈팅)
+- [Filter 단계에서 예외 발생 시 오류 응답 누락 문제](Filter-단계에서-예외-발생-시-오류-응답-누락-트러블슈팅)
+- [Flyway 마이그레이션 체크섬 불일치 문제 트러블슈팅](Flyway-마이그레이션-체크섬-불일치-문제-트러블슈팅)
+- [DB 환경 차이로인한 쿼리 오류 트러블 슈팅](DB-환경-차이로인한-쿼리-오류-트러블슈팅)
+- [blue-green 배포 시 업로드 파일 손실 트러블 슈팅](blue-green-배포-시-업로드-파일-손실-트러블-슈팅)
+
+
+---
 
 ## 위키 목록(https://github.com/KimGyuBek/Threadly/wiki)
 
