@@ -23,6 +23,8 @@
 
 Threadly는 그런 순간을 위해 만들어졌습니다.
 
+**링크:** [Threadly](https://threadly.kr)
+
 ### 특징
 > Threadly는 단순한 SNS 구현을 넘어,
 > 
