@@ -8,7 +8,12 @@
 
 ## Threadly: https://threadly.kr
 
-<br>
+
+---
+
+## 전체 서비스 구성도
+
+![<img src="images/service-structure.png">](images/service_structure.png)
 
 ---
 
@@ -59,9 +64,6 @@
 
 ---
 
-## 전체 서비스 구성도
-
-![<img src="images/service-structure.png">](images/service_structure.png)
 
 ---
 
