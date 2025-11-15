@@ -182,7 +182,7 @@ Threadly는 개발 효율과 생산성을 높이기 위해 **AI를 개발 조수
 ## CI/CD 파이프라인 구축
 
 Threadly는 **`Github Actions` 기반으로 테스트/빌드/배포까지 자동화된 파이프라인**을 구성했습니다.
-또한 `Slack`을 이용한 워크 플로우의 성공 유무 및 관련 PR 생성?
+또한 `Slack`을 이용한 워크 플로우 성공/실패 알림을 받아 운영 상태를 빠르게 파악할 수 있도록 구성했습니다.
 
 > 자세한 문서는 [CI/CD 상세 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/CI-CD-%EB%8F%99%EC%9E%91-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)에서 확인할 수 있습니다.
 
