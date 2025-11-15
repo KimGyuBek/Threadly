@@ -37,13 +37,26 @@
 
 ## 사용 기술 스택
 
-### Backend:  Java 17, Spring Boot (Security, JPA, WebSocket, Batch), Kafka 
+### Backend
+- Java 17
+- Spring Boot (Security, JPA, WebSocket, Batch)
+- Kafka
 
-### Database: PostgreSQL, MongoDB, Redis, Flyway
+### Database / Storage
+- PostgreSQL, MongoDB
+- Redis
+- Flyway
 
-### DevOps: Docker, GitHub Actions, Nginx, AWS (EC2, S3, CloudFront)
+### Infra / DevOps
+- Docker
+- GitHub Actions
+- Nginx
+- AWS (EC2, S3, CloudFront)
 
-### Monitoring: Prometheus, Grafana, PushGateway, Loki, Promtail
+### Monitoring
+- Prometheus, Grafana
+- PushGateway
+- Loki, Promtail
 
 ---
 
