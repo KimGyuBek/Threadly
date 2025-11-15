@@ -1,10 +1,7 @@
 # Threadly
 
 ## 서비스 소개
-> 헥사고날 아키텍처 + DDD + MSA으로 구현한 SNS 백엔드 프로젝트
-
-
-<br>
+> **헥사고날 아키텍처 + DDD + MSA**를 기반으로 실제 서비스 수준의 구조와 확장성을 갖춘 SNS 백엔드 프로젝트
 
 ## Threadly: https://threadly.kr
 
@@ -14,6 +11,10 @@
 ## 전체 서비스 구성도
 
 ![<img src="images/service-structure.png">](images/service_structure.png)
+
+
+### `threadly-service` : https://github.com/KimGyuBek/threadly-service
+### `notification-service` : https://github.com/KimGyuBek/notification-service
 
 ---
 
@@ -131,7 +132,7 @@ Threadly는 개발 효율과 생산성을 높이기 위해 **AI를 개발 조수
 
 또한 비교적 간단한 분기 테스트 중심인  `core-service` 모듈의 테스트를
 
-제가 직접 작성했던 테스트 코드 스타일을 학습 시킨 뒤 해당 스타일로 생성하도록 했습니다.
+개발자가 직접 작성했던 테스트 코드 스타일을 학습 시킨 뒤 해당 스타일로 생성하도록 했습니다.
 
 **최종 검증 및 보완은 사람이 직접 수행해야하지만**,
 
@@ -159,7 +160,7 @@ AI가 기본적인 골격을 만들면,
 
 Threadly의 테스트는 단순 단위 테스트를 넘어서 **실제 서비스 흐름을 그대로 검증하는 API 통합 테스트에** 무게를 두고 설계했습니다.
 
-- `app-api` 모듈에서 실제 요청/응답 흐름을 기반으로 **API 통합 (E2E 성격) 테스트 수행**
+- `app-api` 모듈에서 실제 요청/응답 흐름을 기반으로 **API 통합 (E2E 성격) 테스트 수행**([API 통합 테스트 목록](https://github.com/KimGyuBek/Threadly/wiki/API-integration-test-list))
 - `core-service`, `adapter`  모듈에서는 도메인, 어댑터 단위 테스트로 내부 로직과 외부 연동 안정성 확보
 - **주요 기능은 대부분 테스트로 보장되어 안정적인 배포 가능**
 
