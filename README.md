@@ -64,9 +64,6 @@
 
 ---
 
-
----
-
 ## Threadly 구성 서비스
 
 ## Backend(MSA 구조)
@@ -130,9 +127,9 @@ Threadly는 개발 효율과 생산성을 높이기 위해 **AI를 개발 조수
 
 ### 테스트 코드 작성 과정에서의 활용
 
-반복적이고 볼륨이 많은 작업 - 주로 시나리오가 복잡한 **API 통합 테스트의 테스트(`app-api` 모듈)의 데이터 생성**에서 AI를 활용해 **생산성을 크게 높였습니다.**
+반복적이고 볼륨이 많은 작업인 테스트 데이터 생성에서 AI를 활용해 생산성을 높였습니다.
 
-또한 **비교적 간단한 분기 테스트 중심안  `core-service` 모듈의 테스트를
+또한 비교적 간단한 분기 테스트 중심인  `core-service` 모듈의 테스트를
 
 제가 직접 작성했던 테스트 코드 스타일을 학습 시킨 뒤 해당 스타일로 생성하도록 했습니다.
 
@@ -154,16 +151,6 @@ AI가 기본적인 골격을 만들면,
 
 
 > 자세한 문서는 [AI를 활용한 개발 전략](https://github.com/KimGyuBek/Threadly/wiki/AI-%ED%99%9C%EC%9A%A9-%EA%B0%9C%EB%B0%9C-%EC%A0%84%EB%9E%B5)에서 확인할 수 있습니다.
-
-
----
-
-## CI/CD 파이프라인 구축
-
-Threadly는 **`Github Actions` 기반으로 테스트/빌드/배포까지 자동화된 파이프라인**을 구성했습니다.
-또한 `Slack`을 이용한 워크 플로우 성공/실패 알림을 받아 운영 상태를 빠르게 파악할 수 있도록 구성했습니다.
-
-> 자세한 문서는 [CI/CD 상세 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/CI-CD-%EB%8F%99%EC%9E%91-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)에서 확인할 수 있습니다.
 
 
 ---
@@ -191,14 +178,12 @@ Threadly의 테스트는 단순 단위 테스트를 넘어서 **실제 서비스
  
 ---
 
-## 기술적 의사 결정
-Threadly는 도메인 중심 구조, 확장성, 명확한 책임 분리를 목표로 설계한 서비스입니다.
+## CI/CD 파이프라인 구축
 
-이 과정에서 다양한 구조적 선택지와 설계 상충점들을 마주하게 되었고,
+Threadly는 **`Github Actions` 기반으로 테스트/빌드/배포까지 자동화된 파이프라인**을 구성했습니다.
+또한 `Slack`을 이용한 워크 플로우 성공/실패 알림을 받아 운영 상태를 빠르게 파악할 수 있도록 구성했습니다.
 
-그때마다 "왜 이 방식을 선택했는가"를 명확히 남기기 위해 기술적 의사 결정 문서를 정리했습니다.
-
-> [기술적 의사 결정](https://github.com/KimGyuBek/Threadly/wiki/%EA%B8%B0%EC%88%A0%EC%A0%81-%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95)
+> 자세한 문서는 [CI/CD 상세 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/CI-CD-%EB%8F%99%EC%9E%91-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)에서 확인할 수 있습니다.
 
 
 ---
@@ -216,6 +201,17 @@ Threadly는 도메인 중심 구조, 확장성, 명확한 책임 분리를 목�
 - [Flyway 마이그레이션 체크섬 불일치 문제 트러블슈팅](https://github.com/KimGyuBek/Threadly/wiki/Flyway-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98-%EC%B2%B4%ED%81%AC%EC%84%AC-%EB%B6%88%EC%9D%BC%EC%B9%98-%EB%AC%B8%EC%A0%9C-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85)
 - [DB 환경 차이로인한 쿼리 오류 트러블 슈팅](https://github.com/KimGyuBek/Threadly/wiki/DB-%ED%99%98%EA%B2%BD-%EC%B0%A8%EC%9D%B4%EB%A1%9C%EC%9D%B8%ED%95%9C-%EC%BF%BC%EB%A6%AC-%EC%98%A4%EB%A5%98-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85)
 - [blue-green 배포 시 업로드 파일 손실 트러블 슈팅](https://github.com/KimGyuBek/Threadly/wiki/blue-green-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-%EC%97%85%EB%A1%9C%EB%93%9C-%ED%8C%8C%EC%9D%BC-%EC%86%90%EC%8B%A4-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
+
+---
+
+## 기술적 의사 결정
+Threadly는 도메인 중심 구조, 확장성, 명확한 책임 분리를 목표로 설계한 서비스입니다.
+
+이 과정에서 다양한 구조적 선택지와 설계 상충점들을 마주하게 되었고,
+
+그때마다 "왜 이 방식을 선택했는가"를 명확히 남기기 위해 기술적 의사 결정 문서를 정리했습니다.
+
+> [기술적 의사 결정](https://github.com/KimGyuBek/Threadly/wiki/%EA%B8%B0%EC%88%A0%EC%A0%81-%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95)
 
 ---
 
