@@ -2,9 +2,18 @@
 
 ## 서비스 소개
 > **헥사고날 아키텍처 + DDD + MSA**를 기반으로 실제 서비스 수준의 구조와 확장성을 갖춘 SNS 백엔드 프로젝트
+> 
+> **Threadly는 현재도 지속적으로 기능을 확장하고 있으며, 계속해서 개발 중입니다.**
+
+<p align="center">
+  <img src="images/01.png" width="12%">
+  <img src="images/02.png" width="12%">
+  <img src="images/03.png" width="12%">
+  <img src="images/04.png" width="12%">
+  <img src="images/05.png" width="12%">
+</p>
 
 ## Threadly: https://threadly.kr
-
 
 ---
 
