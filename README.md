@@ -10,16 +10,18 @@
 ## 백엔드 서비스 구성
  Threadly 백엔드는 **메인 서비스와 알림 서비스, 두 개의 레포지토리로 구성됩니다.**
  
-## 메인 서비스(`threadly-service`) : https://github.com/KimGyuBek/threadly-service
+## 메인 서비스(`threadly-service`)  
 > 사용자, 게시글, 팔로우 등 SNS 핵심 도메인을 담당하는 **메인 서비스**입니다.
  
+### GitHub Repo: https://github.com/KimGyuBek/threadly-service
 ### Swagger: https://swagger.threadly.kr/threadly/swagger-ui/index.html
 
 <br>
  
-## 알림 서비스(`notification-service`) : https://github.com/KimGyuBek/notification-service
+## 알림 서비스(`notification-service`) 
 > 실시간 알림, 메일 전송 등 알림을 담당하는 **알림 전용 서비스**입니다.
 
+### GitHub Repo: https://github.com/KimGyuBek/notification-service
 ### Swagger: https://swagger.threadly.kr/swagger/notification/swagger-ui/index.html
 
 ---
