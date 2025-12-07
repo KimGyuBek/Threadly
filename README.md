@@ -5,13 +5,11 @@
 ### Threadly: https://threadly.kr
 ### Threadly API: https://api.threadly.kr
 
----
 
 ## 전체 서비스 구성도
 ![threadly_structure](images/threadly_structure.png)
 > 자세한 문서는 [운영 서버 구성 위키](https://github.com/KimGyuBek/Threadly/wiki/%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%84%B1)에서 확인 가능합니다.
 
----
 
 ## 백엔드 서비스 구성
  Threadly 백엔드는 **메인 서비스와 알림 서비스, 두 개의 레포지토리로 구성됩니다.**
@@ -30,7 +28,6 @@
 ### GitHub Repo: https://github.com/KimGyuBek/notification-service
 ### Swagger: https://swagger.threadly.kr/swagger/notification/swagger-ui/index.html
 
----
 
 ## 핵심 성과
 
@@ -40,7 +37,6 @@
 - [**`Kafka` 재시도 정책과 모니터링 환경을 구축해 알림 서비스의 장애 복원력을 강화**](https://github.com/KimGyuBek/Threadly/wiki/Kafka-%EC%9E%A5%EC%95%A0-%EC%9E%AC%EC%8B%9C%EB%8F%84-%EC%A0%84%EB%9E%B5)
 - [**MSA 도입 과정에서 발생한 운영 서버 OOM 다운을 해결해 무중단 배포 환경 안정화**](https://github.com/KimGyuBek/Threadly/wiki/%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%B6%94%EA%B0%80%EB%A1%9C-%EC%9D%B8%ED%95%9C-%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B2%84-%EB%8B%A4%EC%9A%B4-%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)
 
----
 
 ## 프로젝트 특징
 ### **구조**
@@ -61,7 +57,6 @@
 - **높은 테스트 커버리지를 바탕으로 주요 비즈니스 흐름을 자동으로 검증할 수 있는 구조 확보**
 - **트러블슈팅·설계·의사 결정 과정을 Wiki에 체계적으로 문서화**
 
----
 
 
 ## 사용 기술 스택
@@ -77,8 +72,6 @@
 ### 테스트 및 품질
 `JUnit5` `k6` `JaCoCo` `Mockito`
 
-
----
 
 
 ## 테스트 전략
@@ -99,7 +92,6 @@ Threadly의 테스트는 단순 단위 테스트를 넘어서 **실제 서비스
 
 > 자세한 문서는 [테스트 구조 및 전략 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EC%A1%B0-%EB%B0%8F-%EC%A0%84%EB%9E%B5)에서 확인할 수 있습니다.
 
----
 
 ## CI/CD 파이프라인 구축
 
@@ -108,14 +100,12 @@ Threadly는 **`GitHub Actions` 기반으로 테스트/빌드/배포까지 자동
 
 > 자세한 문서는 [CI CD 동작 프로세스 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/CI-CD-%EB%8F%99%EC%9E%91-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)에서 확인 가능합니다.
 
----
 
 ## 트러블슈팅
 개발 과정에서 실제로 마주했던 기술적 문제들에 대해 **어떤 고민을 했고 어떻게 해결했는지 그 과정을 트러블슈팅 문서로 남겼습니다.**
 
 > 자세한 문서는 [CI CD 동작 프로세스 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)에서 확인 가능합니다.
 
----
 
 ## 기술적 의사 결정
 Threadly는 도메인 중심 구조, 확장성, 명확한 책임 분리를 목표로 설계한 서비스입니다.
@@ -125,7 +115,6 @@ Threadly는 도메인 중심 구조, 확장성, 명확한 책임 분리를 목�
 
 > [기술적 의사 결정](https://github.com/KimGyuBek/Threadly/wiki/%EA%B8%B0%EC%88%A0%EC%A0%81-%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95)
 
----
 
 ## Threadly WIKI
 Threadly를 개발하며 정리한 **설계 문서, 기술적 고민, 문제 해결 과정**은 모두 WIKI에 정리해 두었습니다.
