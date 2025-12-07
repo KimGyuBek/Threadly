@@ -97,8 +97,6 @@ Threadly의 테스트는 단순 단위 테스트를 넘어서 **실제 서비스
 
 
 > 자세한 문서는 [테스트 구조 및 전략 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EC%A1%B0-%EB%B0%8F-%EC%A0%84%EB%9E%B5)에서 확인할 수 있습니다.
->
-> CI 워크플로우 결과의 예시는 [CI 워크플로우 결과](https://github.com/KimGyuBek/threadly-service/actions/runs/19262210745)에서 확인할 수 있습니다.
 
 ---
 
