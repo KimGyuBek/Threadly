@@ -114,7 +114,7 @@ Threadly는 **`GitHub Actions` 기반으로 테스트/빌드/배포까지 자동
 ## 트러블슈팅
 개발 과정에서 실제로 마주했던 기술적 문제들에 대해 **어떤 고민을 했고 어떻게 해결했는지 그 과정을 트러블슈팅 문서로 남겼습니다.**
 
-> 자세한 문서는 [CI CD 동작 프로세스 위키 문서](https://github.com/KimGyuBek/Threadly/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)에서 확인 가능합니다.
+> 자세한 문서는 [트러블슈팅](https://github.com/KimGyuBek/Threadly/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)에서 확인 가능합니다.
 
 
 <br>
