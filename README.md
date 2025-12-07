@@ -7,6 +7,12 @@
 
 ---
 
+## 전체 서비스 구성도
+![threadly_structure](images/threadly_structure.png)
+> 자세한 문서는 [운영 서버 구성 위키](https://github.com/KimGyuBek/Threadly/wiki/%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%84%B1)에서 확인 가능합니다.
+
+---
+
 ## 백엔드 서비스 구성
  Threadly 백엔드는 **메인 서비스와 알림 서비스, 두 개의 레포지토리로 구성됩니다.**
  
@@ -57,11 +63,6 @@
 
 ---
 
-## 전체 서비스 구성도
-![threadly_structure](images/threadly_structure.png)
-> 자세한 문서는 [운영 서버 구성 위키](https://github.com/KimGyuBek/Threadly/wiki/%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%84%B1)에서 확인 가능합니다.
-
----
 
 ## 사용 기술 스택
 ### 백엔드
